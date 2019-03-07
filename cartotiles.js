@@ -198,6 +198,16 @@ cartotiles = {
     ['ZMB', 25],
     ['ZWE', 25]
   ],
-  color: function () {
+
+  color: function (value) {
+    if (value === 0) {
+      return ['rgb', 153, 0, 51]
+    } else if (value <= 50) {
+      return ['rgb', 255, 117, 25]
+    } else if (value < 100) {
+      return ['rgb', 48, 131, 255]
+    } else {
+      return ['rgb', 0, 61, 153]
+    }
   }
 }
