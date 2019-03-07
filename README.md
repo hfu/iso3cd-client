@@ -11,11 +11,10 @@ The structure of the `cartotiles.js` is as below:
 ```javascript
 cartotiles = {
   data: [
-    ['AFG', 2], 
-    ...
+    ['AFG', 2] // , ...
   ],
   color: function (value) {
-    ...
+    //...
     return ['rgb', 0, 61, 153]
   }
 }
