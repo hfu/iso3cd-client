@@ -61,7 +61,11 @@ In the case the cartotiles.js is at https://hfu.github.io/iso3cd-client/cartotil
 
 1. Please not that the '/' after geospatial shall not be avoided.
 2. You can add #${zoom}/${latitude}/${longitude} hash like in https://hfu.github.io/iso3cd-geospatial/?https://hfu.github.io/iso3cd-client/cartotiles.js#3.36/-11.38/-75.95.
-3. This URL are intended to be used as the src of iframe.
+3. This URL are intended to be used as the src of iframe. The `iframe` tag will be like the following.
+
+```html
+<iframe height="400px" src="https://hfu.github.io/iso3cd-geospatial/?https://hfu.github.io/iso3cd-client/cartotiles.js#3.36/-11.38/-75.95" style="border: 0px" width="100%"></iframe>
+```
 
 ## 3. There is no step 3.
 It is done :-) 
